@@ -58,6 +58,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        //you can changed "linearLayoutManager" to "gridLayoutManager" to set default
         recyclerView.setLayoutManager(linearLayoutManager);
         recyclerView.setAdapter(adapter);
 
