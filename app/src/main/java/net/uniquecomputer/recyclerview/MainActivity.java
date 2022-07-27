@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
+        // This is all ids
         recyclerView = findViewById(R.id.recyclerView);
         listBtn = findViewById(R.id.listBtn);
         gridBtn = findViewById(R.id.gridBtn);
